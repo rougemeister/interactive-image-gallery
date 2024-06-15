@@ -9,67 +9,67 @@ const images = [
         full: './images/blue-chevvy.jpg',
         thumb: './images/blue-chevvy.jpg',
         caption: 'A Blue Chevrolet in the desert',
-        description: 'A black porsche car riding home!'
+        description: 'Ride on or Ride Dry!'
     },
     {
         full: './images/gray-coupe.jpg',
         thumb: './images/gray-coupe.jpg',
         caption: 'Gray Coupe Sports Cars',
-        description: 'A black porsche car riding home!'
+        description: 'Sleek is the new grey!'
     },
     {
         full: './images/mini-cooper.jpg',
         thumb: './images/mini-cooper.jpg',
         caption: 'An Orange Mini Cooper in the City',
-        description: 'A black porsche car riding home!'
+        description: 'Old man in town!'
     },
     {
         full: './images/red-ferrari.jpg',
         thumb: './images/red-ferrari.jpg',
         caption: 'Red Ferrari in Showroom',
-        description: 'A black porsche car riding home!'
+        description: 'So long slow riders!'
     },
     {
         full: './images/blue-mustang.jpg',
         thumb: './images/blue-mustang.jpg',
         caption: 'Blue Mustang',
-        description: 'A black porsche car riding home!'
+        description: 'I am speed!'
     },
     {
         full: './images/red-american-muscle-car.jpg',
         thumb: './images/red-american-muscle-car.jpg',
         caption: 'Red American Muscle Car',
-        description: 'A black porsche car riding home!'
+        description: 'Flex that muscle!'
     },
     {
         full: './images/yellow-lamb.jpg',
         thumb: './images/yellow-lamb.jpg',
         caption: 'Yellow Lamborghini',
-        description: 'A black porsche car riding home!'
+        description: `Let's dance!`
     },
     {
         full: './images/white-opentop.jpg',
         thumb: './images/white-opentop.jpg',
         caption: 'White Open-top Dogde',
-        description: 'A black porsche car riding home!'
+        description: 'Gentle Jack!'
     },
     {
         full: './images/orange-lamb.jpg',
         thumb: './images/orange-lamb.jpg',
         caption: 'Orange Lamborghini',
-        description: 'A black porsche car riding home!'
+        description: 'Ride or die!'
     },
     {
         full: './images/grey-benz.jpg',
         thumb: './images/grey-benz.jpg',
         caption: 'Grey Benz Sports Car',
-        description: 'A black porsche car riding home!'
+        description: 'Nothing beats Benz!'
     },
     {
         full: './images/silver-audi.jpg',
         thumb: './images/silver-audi.jpg',
-        caption: 'Blue Mustang',
-        description: 'A black porsche car riding home!'
+        caption: 'Silver Audi',
+        description: 'A car with an impossible speed!'
     },
 ]
 
