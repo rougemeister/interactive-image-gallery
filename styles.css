@@ -4,3 +4,138 @@
 * {
     box-sizing: border-box;
 }
+
+ody {
+    font-family: "DM Sans", sans-serif;
+    padding: 0;
+    margin: 0;   
+  
+}
+
+.main-content-title {
+    padding: 8px 15px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+
+.main-content {
+    background-color: rgba(231, 237, 238, 0.404);
+    margin-top: 120px;
+    padding: 20px 0px 120px 0px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    
+}
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: right auto
+}
+
+
+
+.thumbnail {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+    flex-grow: 1;
+    
+
+}
+
+.thumbnail:hover {
+    transform: scale(1.08);
+    transition: transform 0.05s;
+    box-shadow: 0 0 5px rgb(129, 120, 120);
+}
+
+
+
+
+.lightbox{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.lightbox.show {
+    display: flex;
+}
+
+.lightbox-img {
+    max-width: 60%;
+    max-height: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px#c2fff3;
+    border-radius: 15px;
+    flex: grow;
+}
+
+
+.lightbox-content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.description, .caption {
+    text-align: center;
+    color: #fff;
+}
+
+
+.caption {
+    font-size: 2rem;
+    margin-bottom: 5px;
+   
+}
+
+.description {
+    margin-top: 5px;
+}
+
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+ .close {
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.remove {
+    visibility: hidden;
+}
+
+.close:hover {
+    color: rgb(255, 88, 88);
+    text-shadow: 0 0 5px#f40f0f;
+}
+
+.close {
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2.5em;
+}
+
