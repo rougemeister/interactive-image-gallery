@@ -110,3 +110,28 @@ function openLightbox(index) {
 function closeLightbox() {
     lightbox.classList.remove('show');
 }
+
+
+function showNextImage() {
+    if (currentIndex < images.length - 1) {
+        currentIndex++;
+        openLightbox(currentIndex);
+    }
+}
+
+function showPreviousImage() {
+    if (currentIndex > 0) {
+        currentIndex--;
+        openLightbox(currentIndex);
+    }
+}
+
+function updateNavButtons() {
+    currentIndex === 0 ? prevButton.classList.add('remove') : prevButton.classList.remove('remove');
+    currentIndex === images.length - 1 ? nextButton.classList.add('remove') : nextButton.classList.remove('remove')
+}
+
+prevButton.addEventListener('click', showPreviousImage);
+nextButton.addEventListener('click', showNextImage);
+closeButton.addEventListener('click', closeLightbox);
+
