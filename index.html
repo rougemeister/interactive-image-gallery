@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main-content">
+        <h1 class="main-content-title">Sports Cars Gallery</h1>
+        <div id="gallery" class="gallery-container"></div>
+    </div>
+
+    <div id="lightbox" class="lightbox hidden">
+        <span id="close" class="close">&times;</span>
+
+        <div class="lightbox-content">
+            <div>
+                <h1 id="caption" class="caption"></h1>
+                <p class="description"></p>
+            </div>
+            <div class="navigation">
+                <div id="prev" class="nav-button  btn-three">Previous</div>
+                <img id="lightbox-img" class="lightbox-img">
+                <div id="next" class="nav-button  btn-three">Next</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
